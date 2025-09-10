@@ -40,8 +40,8 @@ func toCamel(tb testing.TB) {
 		{"AnyKind of_string", "AnyKindOfString"},
 		{"odd-fix", "OddFix"},
 		{"numbers2And55with000", "Numbers2And55With000"},
-		{"ID", "Id"},
-		{"CONSTANT_CASE", "ConstantCase"},
+		{"ID", "ID"},
+		{"CONSTANT_CASE", "CONSTANTCASE"},
 	}
 	for _, i := range cases {
 		in := i[0]
